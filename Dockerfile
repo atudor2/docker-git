@@ -7,5 +7,5 @@ RUN apk fix && \
 VOLUME /git
 WORKDIR /git
 
-ENTRYPOINT ["git"]
+ENTRYPOINT ["gh"]
 CMD ["--help"]
